@@ -166,7 +166,7 @@ class GeneralLedgerReport(BaseReportStream):
                     max_requests = 10
                 else:
                     day1, period_days = monthrange(start_date.year, start_date.month)
-                    max_requests = 4
+                    max_requests = 6
 
                 # calculate end date
                 if (today - start_date).days <= period_days:
