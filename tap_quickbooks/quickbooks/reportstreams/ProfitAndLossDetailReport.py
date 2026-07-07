@@ -143,7 +143,7 @@ class ProfitAndLossDetailReport(BaseReportStream):
             min_time = datetime.datetime.min.time()
             today = datetime.date.today()
             today = datetime.datetime.combine(today, min_time)
-            max_requests = 5
+            max_requests = 3
             fetch_cols = cols.copy()
 
             # params for concurrent requests
